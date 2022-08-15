@@ -66,16 +66,16 @@ func getUserInput() (string, string, string, uint) {
 	var email string
 	var numberOfTickets uint
 
-	fmt.Println("Enter your first name:")
+	fmt.Print("Enter your first name: ")
 	fmt.Scan(&firstName)
 
-	fmt.Println("Enter your last name:")
+	fmt.Print("Enter your last name: ")
 	fmt.Scan(&lastName)
 
-	fmt.Println("Enter your email address:")
+	fmt.Print("Enter your email address: ")
 	fmt.Scan(&email)
 
-	fmt.Println("Enter number of tickets:")
+	fmt.Print("Enter number of tickets: ")
 	fmt.Scan(&numberOfTickets)
 
 	return firstName, lastName, email, numberOfTickets

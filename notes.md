@@ -47,7 +47,7 @@
 ### Arrays
 
 - Arrays have a fixed size
-- `var myArray = [50]string{}` -> `var myArray = [size]type{initialValues}`
+- `var myArray = [50]string{}`
 - Shorthand for empty arrays: `var myArray [10]int`
 
 ### Slices
@@ -87,7 +87,7 @@ for index, element := range mySlice {
   // Your code
 }
 
-Use _ as blank identifier to ignore the index
+// Use _ as blank identifier to ignore the index
 ```
 
 ## Conditional logic
